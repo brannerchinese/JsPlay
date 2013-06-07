@@ -13,11 +13,11 @@ function initialize(){
 function reportDirection(){
   tableObject = document.getElementById("theTable");
   buttonText = "Change to columnar text";
-  tableObject.setAttribute("style", "border-spacing:0px 0px;");
+  tableObject.setAttribute("style", "border:1px;border-spacing:0px 0px;");
   if (directionVertical) {
     buttonText = "Change to horizontal text";
     // If Chinese text, we also want lines separated by space.
-    tableObject.setAttribute("style", "border-spacing:20px 0px;");
+    tableObject.setAttribute("style", "border:1px;border-spacing:20px 0px;");
   }
   document.getElementById("turnButton").innerHTML=buttonText;
   console.log("direction = vertical?", directionVertical);
