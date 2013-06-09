@@ -6,11 +6,8 @@
 //   horizontal Chinese text becomes vertical and vice versa.
 
 var global = this;
-
-function initialize(){
-  global.directionVertical = false;
-  reportDirection();
-}
+global.directionVertical = false;
+reportDirection();
 
 function reportDirection(){
   var tableObject = document.getElementById("theTable");
