@@ -1,0 +1,28 @@
+// 201404027
+// David Prager Branner
+
+div {
+  width:auto;
+  height:auto;
+  position:relative;
+  display:inline-block;
+}
+
+#ball {
+  background-color:pink;
+  border-radius:10px;
+}
+
+#spacer {
+  height:400px;
+}
+
+#button {
+  color:white;
+  background-color:green;
+}
+
+#button2 {
+  color:brown;
+  background-color:palegreen;
+}

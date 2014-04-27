@@ -3,7 +3,6 @@
 
 var hidden = false;
 var loops = 14;
-var g = 1
 
 
 var toggle = function () {
@@ -23,7 +22,7 @@ $(document).ready(function () {
     $("#button2").click(function () {
         for (var t = 0; t < loops; t++) {
             $("#ball").animate({
-                'top': '-=' + ((loops / 2) - t) * Math.pow((loops / 2) - t, 2) + 'px',
+                    'top': '-=' + ((loops / 2) - t) * Math.pow((loops / 2) - t, 2) + 'px',
                     'left': '+=12px'
             }, {
                 easing: "linear"
