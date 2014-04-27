@@ -1,0 +1,26 @@
+#ball {
+    background-color:pink;
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius:10px;
+}
+
+#spacer {
+    height:400px;
+}
+
+#button {
+    color:white;
+    background-color:green;
+    width:auto;
+    display: inline-block;
+}
+
+#button2 {
+    color:brown;
+    background-color:palegreen;
+    width:auto;
+    display: inline-block;
+    height:20px;
+}
