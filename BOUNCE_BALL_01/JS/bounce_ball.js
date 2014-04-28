@@ -4,6 +4,9 @@
 var hidden = false;
 var loops = 14;
 var updown;
+var field_width = $(window).width();
+var field_height = $(window).height();
+// Now must calculate feasible values.
 
 var toggle = function () {
     if (hidden) {
