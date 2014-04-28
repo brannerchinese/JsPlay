@@ -2,7 +2,7 @@
 // David Prager Branner
 
 var hidden = false;
-var loops = 14;
+var loops = 12;
 
 
 var toggle = function () {
