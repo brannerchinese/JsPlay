@@ -1,13 +1,16 @@
 $(document).ready(function () {
-  /* Create menu. */
-  $('#menu').append('<input type="button" value="Add to-do item">')
+  /* Add fading effects to menu.*/
   $('#menu').mouseenter(function() {
-    $('#menu').fadeTo('swing', 1);
+    $(this).fadeTo('swing', 1);
   });
   $('#menu').mouseleave(function() {
-    $('#menu').fadeTo('swing', 0);
+    $(this).fadeTo('swing', 0);
   });
   /* Create ordered list. */
+  $('#button').click(function() {
+    var content = $('#content').val();
+    $('#list ol').append('<li>' + content + '</li>');
+  });
   /* Add checker for past-due. Past-due is flagged. */
   /* Make sortable. */
   /* Add button for "done". */
