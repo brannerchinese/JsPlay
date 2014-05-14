@@ -10,6 +10,7 @@ $(document).ready(function () {
   $('#button').click(function() {
     var content = $('#content').val();
     $('#list ol').append('<li>' + content + '</li>');
+    console.log($('#list ol').find('li'))
   });
   /* Add checker for past-due. Past-due is flagged. */
   /* Make sortable. */
