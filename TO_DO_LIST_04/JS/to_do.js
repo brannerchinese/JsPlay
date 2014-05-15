@@ -7,12 +7,8 @@ $(document).ready(function () {
     var content = $('#content').val();
     if (content === '') {return} else {$('#content').val('')}
     $('#list ol').prepend('<li>' + content + '</li>');
-    var lists = {list:'#done', done:'#list'};
-    var cursor = 0;
     $('li').dblclick(function() {
-      /* Find nth parent: $(this).parents().eq(n) */
-      var whichList = $(this).parents().eq(1).attr('id');
-      $(lists[whichList] + ' ol').prepend($(this));
+      $('#done ol').prepend($(this));
     });
   }
 
@@ -32,8 +28,8 @@ $(document).ready(function () {
     return false;
   });
 
-  /* Make lists sortable by hand (requires jQuery UI). */
-  $('ol').sortable();
+  /* Make sortable by hand (requires jQuery UI). */
+  $('#list ol').sortable();
 
   /* Add check-box for "done". */
   /* Add dates. */
