@@ -1,3 +1,5 @@
+/* David Branner, 20140514 */
+
 $(document).ready(function () {
   function addLI() {
     var content = $('#content').val();

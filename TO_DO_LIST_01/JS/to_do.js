@@ -1,3 +1,5 @@
+/* David Branner, 20140514 */
+
 $(document).ready(function () {
   /* Add fading effects to menu.*/
   $('#menu').mouseenter(function() {
