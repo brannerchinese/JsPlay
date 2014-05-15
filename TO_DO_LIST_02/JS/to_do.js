@@ -5,13 +5,6 @@ $(document).ready(function () {
     $('#list ol').append('<li>' + content + '</li>');
   }
 
-  function checkCR(e) {
-    var evnt = e || window.event;
-    if (evnt.keyCode == 13) {
-        addLI();
-    }
-  }
-
   /* Add fading effects to menu.*/
   $('#menu').mouseenter(function() {
     $(this).fadeTo('fast', 1);
@@ -20,9 +13,6 @@ $(document).ready(function () {
     $(this).fadeTo('slow', 0);
   });
   /* Create ordered list. */
-/*  $('#button').click(function() {
-    addLI()
-  }); */
   $('#form').submit(function () {
     addLI();
     return false;
