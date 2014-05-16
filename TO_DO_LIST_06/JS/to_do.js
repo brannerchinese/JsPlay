@@ -40,6 +40,8 @@ $(document).ready(function () {
   /* Add dates. */
   /* Add checker for past-due. Past-due is flagged. */
 
+  /* Sliding instructions-menu. */
+
 });
 
 
