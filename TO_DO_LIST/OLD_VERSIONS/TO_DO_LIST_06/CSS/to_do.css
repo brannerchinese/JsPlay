@@ -1,0 +1,27 @@
+/* David Branner, 20140515 */
+
+#button {
+  color: #b0c4de;
+  background-color: #cd5c5c;
+  display: inline-block;
+}
+
+table {
+  width: 95%;
+  table-layout: fixed;
+  margin: 20px;
+  border-spacing: 10px;
+}
+
+td {
+  width: 50%;
+  word-wrap: break-word;
+  vertical-align: top;
+  padding: 10px;
+}
+
+#inputs {
+  font-size-adjust:0.4;
+}
+
+
