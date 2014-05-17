@@ -20,9 +20,4 @@ To play with it: clone from this repository and open `to_do.html` in a browser. 
    * Menu that becomes visible only on mouse-over.
    * List-items that are entered by user.
 
-### Things learned (this list incomplete)
-
-      * Calling named functions. 
-      * Use of HTML forms with either `button` or `submit` in `input` element.
-
 [end]
