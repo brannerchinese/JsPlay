@@ -1,4 +1,4 @@
-/* David Branner, 20140515 */
+/* David Branner, 20140517 */
 
 #button {
   color: #b0c4de;
@@ -24,4 +24,6 @@ td {
   font-size-adjust:0.4;
 }
 
-
+.btn-custom {
+  color: #b0c4de;
+}

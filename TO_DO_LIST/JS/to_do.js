@@ -1,4 +1,4 @@
-/* David Branner, 20140515 */
+/* David Branner, 20140517 */
 
 /* focus should be automatic in form when visible. */
 
@@ -18,7 +18,7 @@ $(document).ready(function () {
     });
   }
 
-  /* Add fading effects to menu.*/
+  /* Add fading effects to form.*/
   $('#content').focus();
   $('#inputs').hover(
     function() {
@@ -41,7 +41,7 @@ $(document).ready(function () {
   /* Add checker for past-due. Past-due is flagged. */
 
   /* Sliding instructions-menu. */
-
+  $('#menuContent').load('HTML/menu.html');
 });
 
 
