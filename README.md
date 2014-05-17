@@ -1,6 +1,6 @@
 ### Exercises as I learn JavaScript. 
 
- 1. 20140513: `TO_DO`: An in-browser to-do list.
+ 1. 20140513: `TO_DO_LIST`: An in-browser to-do list.
 
  1. 20140427: `BOUNCE_BALL`: Make a ball bounce in the browser window. Should load as HTML file: `BOUNCE_BALL/bounce_ball.html`.
 
