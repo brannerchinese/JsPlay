@@ -6,6 +6,7 @@ To play with it: clone from this repository and open `to_do.html` in a browser. 
 
 ### Versions (top-most is current)
 
+ * v. 7, 20140517: Uses Bootstrap modal (overlay that can be summoned or dismissed).
  * v. 6, 20140515:
    * To-do and done lists are in left and right halves of page (use table, `{width: 100%; table-layout: fixed;}`). 
    * Input box and field are now part of "To-do" heading but slightly smaller than headings (use `span` and make heading part of `<form id='form'>` but not part of `<span id=inputs>`). 
