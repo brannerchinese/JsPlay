@@ -2,7 +2,9 @@
 
 Purpose: to study jQuery by constructing a to-do list with various interesting features.
 
-### Versions
+To play with it: clone from this repository and open `to_do.html` in a browser. The rest should be self-explanatory.
+
+### Versions (top-most is current)
 
  * v. 6, 20140515:
    * To-do and done lists are in left and right halves of page (use table, `{width: 100%; table-layout: fixed;}`). 
