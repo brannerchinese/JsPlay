@@ -1,4 +1,4 @@
-## To-do List
+## An in-browswer to-do List
 
 Purpose: to study jQuery by constructing a to-do list with various interesting features.
 
