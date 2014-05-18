@@ -2,7 +2,7 @@
 
 Purpose: to study jQuery by constructing a to-do list with various interesting features.
 
-To play with it: clone from this repository and open `TO_DO_LIST/to_do.html` in a browser. The rest should be self-explanatory.
+To play with it: clone from this repository and open `To_Do_List/to_do.html` in a browser. The rest should be self-explanatory.
 
 ### Versions (top-most is current)
 
