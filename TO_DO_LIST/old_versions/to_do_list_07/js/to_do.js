@@ -41,7 +41,7 @@ $(document).ready(function () {
   /* Add checker for past-due. Past-due is flagged. */
 
   /* Sliding instructions-menu. */
-  $('#menuContent').load('HTML/menu.html');
+  $('#menuContent').load('html/menu.html');
 });
 
 

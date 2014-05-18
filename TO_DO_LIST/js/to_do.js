@@ -1,4 +1,4 @@
-/* David Branner, 20140517 */
+/* David Branner, 20140518 */
 
 /* focus should be automatic in form when visible. */
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
   /* Add checker for past-due. Past-due is flagged. */
 
   /* Sliding instructions-menu. */
-  $('#menuContent').load('HTML/menu.html');
+  $('#menuContent').load('html/menu.html');
 });
 
 
