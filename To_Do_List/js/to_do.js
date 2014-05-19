@@ -1,4 +1,4 @@
-/* David Branner, 20140518 */
+/* David Branner, 20140519 */
 
 /* focus should be automatic in form when visible. */
 
@@ -27,6 +27,7 @@ $(document).ready(function () {
     },
     function() {
       $(this).fadeTo('slow', 0);
+      $('#content').blur();
     });
   /* Create ordered list. */
   $('#form').submit(function () {
