@@ -2,7 +2,14 @@
 
 Purpose: to study jQuery by constructing a to-do list with various interesting features.
 
-To play with it: see it on line at https://brannerchinese.com/code/JsPlay/To_Do_List/to_do.html. The rest should be self-explanatory.
+To play with it: see it on line at https://brannerchinese.com/code/JsPlay/To_Do_List/to_do.html. Or access it locally, after cloning this repository, with
+
+    cd JsPlay/To_Do_List
+    python3 -m http.server
+
+And point your browser to http://127.0.0.1:8000/to_do.html.
+
+The rest should be self-explanatory. This has been tested on Chrome, Firefox, and Safari.
 
 ### Versions (top-most is current)
 
